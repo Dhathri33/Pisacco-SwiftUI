@@ -11,7 +11,7 @@ import SwiftUI
 struct Pisacco_SwiftUIApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(imageViewModel: ImageViewModel(shared: NetworkManager.shared))
         }
     }
 }
